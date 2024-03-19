@@ -1,17 +1,13 @@
 function getFormvalue() {
-  var form = document.getElementById("form1");
+   let form1 = document.getElementById("form1");
+	
+	let firstNameInput = form1.elements["fname"];
 
-            // Get the input elements by their names
-            var firstNameInput = form.elements["fname"];
-            var lastNameInput = form.elements["lname"];
-
-            // Get the values from the input elements
-            var firstName = firstNameInput.value;
-            var lastName = lastNameInput.value;
-
-            // Do something with the values (for example, log them)
-            alert(firstName + " " + lastName);
-          
+	let lastNameInput = form1.elements["lname"];
+	
+	let firstName = firstNameInput.value;
+	let lastName = lastNameInput.value;
+	alert(firstName + " " + lastName)
 
 
 }
